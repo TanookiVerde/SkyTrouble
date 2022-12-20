@@ -118,7 +118,6 @@ GameObject:
   - component: {fileID: 8471675211790551705}
   - component: {fileID: 6073783207284583255}
   - component: {fileID: 8471675211790551706}
-  - component: {fileID: 308747630}
   - component: {fileID: 1820045090245108280}
   - component: {fileID: 4581231842912636038}
   - component: {fileID: 1604014077500075844}
@@ -210,19 +209,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &308747630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8471675211790551704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c02bff79637d0947ab6f5edec84363d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attractionIntensity: 10
 --- !u!114 &1820045090245108280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 628ed3f851b7aae459c77c1ce8da4ea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skipAnimation: 0
 --- !u!1001 &7595484259326227387
 PrefabInstance:
   m_ObjectHideFlags: 0
