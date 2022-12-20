@@ -37,9 +37,10 @@ public class CharacterController : MonoBehaviour
     {
         while (true)
         {
-            this.rigidbody2D.velocity = (this.targetPosition - this.transform.position) * speed;
+            Vector3 velocity = (this.targetPosition - this.transform.position) * speed;
+            this.transform.position += velocity * Time.deltaTime;
 
-            yield return new WaitForFixedUpdate();
+            yield return new WaitForEndOfFrame();
         }
     }
 }
