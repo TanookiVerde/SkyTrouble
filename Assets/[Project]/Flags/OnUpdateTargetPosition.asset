@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ac9c1185440967429e8b85b50663c50, type: 3}
   m_Name: OnUpdateTargetPosition
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1
   onTrigger:
     m_PersistentCalls:
       m_Calls: []
